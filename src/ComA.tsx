@@ -2,7 +2,7 @@ import { useState } from "react";
 import ComB from "./ComB";
 import UserContext from "./UserContext";
 function ComA() {
-  const [name,setName]=useState('zhangsan');
+  const [name]=useState('zhangsan');
   return (
     <div>
     <UserContext.Provider value={name}>
