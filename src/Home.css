@@ -1,0 +1,19 @@
+.head{
+    color: red;
+    text-align: center;
+    margin-top: 50px;
+}
+.tobi{
+    height: 250px;
+    width: 300px;
+}
+.align{
+    margin-top: 50px;
+    text-align: center;
+}
+
+.btndanger{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}

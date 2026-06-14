@@ -1,0 +1,42 @@
+.api-page {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  padding-top: 8rem;
+  margin-top: 1rem;
+}
+
+.api-header {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+  margin-bottom: 1rem;
+}
+
+.api-header h1,
+.api-header p {
+  margin: 0;
+}
+
+.api-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1rem;
+}
+
+.api-item {
+  padding: 1rem;
+  background: #fafafa;
+  border: 1px solid #e5e5e5;
+  border-radius: 0.65rem;
+}
+
+.api-item h2 {
+  margin: 0 0 0.5rem;
+}
+
+.api-item p {
+  margin: 0;
+  line-height: 1.6;
+  color: #444;
+}
